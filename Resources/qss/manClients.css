@@ -1,0 +1,64 @@
+*{
+	font-family: Microsoft YaHei;
+	color: rgb(55, 55, 55);
+}
+
+QWidget#bodyWidget
+{
+	background-color: rgb(255, 255, 255);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-left:2px solid rgba(225, 225, 225, 1);
+	border-right:2px solid rgba(225, 225, 225, 1);
+	border-bottom:2px solid rgba(225, 225, 225, 1);
+}
+
+QTableWidget#manClientsTable
+{
+	border-radius: 4px;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	border-right: 1px solid rgba(225, 225, 225, 1);
+}
+
+QPushButton#disconnectBtn
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+}
+
+QPushButton#disconnectBtn:hover
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(240, 240, 240);
+}
+
+QPushButton#disconnectBtn:pressed
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(200, 200, 200);
+}
+
+QComboBox
+{
+	background-color: white;
+	border: 1px solid white;
+}
+
+QLineEdit#disconnectLineEdit
+{
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 2px solid rgb(200,200,200);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+QLabel#tipLabel_3
+{
+	color: grey;
+}

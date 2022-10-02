@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/imageIcon/sysCloseBtn_hover.png</file>
+        <file>Resources/imageIcon/sysCloseBtn_normal.png</file>
+        <file>Resources/imageIcon/sysMinBtn_hover.png</file>
+        <file>Resources/imageIcon/sysMinBtn_normal.png</file>
+        <file>Resources/imageIcon/sysMinBtn_pressed.png</file>
+        <file>Resources/qss/titleBar.css</file>
+        <file>Resources/imageIcon/sysCloseBtn_pressed.png</file>
+        <file>Resources/qss/mainWindow.css</file>
+        <file>Resources/imageIcon/networkAssistant.png</file>
+        <file>Resources/imageIcon/copyIP.png</file>
+        <file>Resources/imageIcon/copyIP_hoverPressed.png</file>
+        <file>Resources/imageIcon/selectBtn_hover.png</file>
+        <file>Resources/imageIcon/selectBtn_normal.png</file>
+        <file>Resources/imageIcon/selectBtn_pressed.png</file>
+        <file>Resources/imageIcon/selectCheckBox.png</file>
+        <file>Resources/imageIcon/unSelectCheckBox.png</file>
+        <file>Resources/imageIcon/sendMesBtn_hover.png</file>
+        <file>Resources/imageIcon/sendMesBtn_normal.png</file>
+        <file>Resources/imageIcon/sendMesBtn_pressed.png</file>
+        <file>Resources/imageIcon/connect.png</file>
+        <file>Resources/imageIcon/getLocalLp_hover.png</file>
+        <file>Resources/imageIcon/getLocalLp_normal.png</file>
+        <file>Resources/imageIcon/getLocalLp_pressed.png</file>
+        <file>Resources/imageIcon/connectedClient_hover.png</file>
+        <file>Resources/imageIcon/connectedClient_normal.png</file>
+        <file>Resources/imageIcon/connectedClient_pressed.png</file>
+        <file>Resources/qss/manClients.css</file>
+        <file>Resources/imageIcon/disconnect_hover.png</file>
+        <file>Resources/imageIcon/disconnect_normal.png</file>
+        <file>Resources/imageIcon/disconnect_pressed.png</file>
+        <file>Resources/imageIcon/clearMesBtn_hover.png</file>
+        <file>Resources/imageIcon/clearMesBtn_normal.png</file>
+        <file>Resources/imageIcon/clearMesBtn_pressed.png</file>
+    </qresource>
+</RCC>

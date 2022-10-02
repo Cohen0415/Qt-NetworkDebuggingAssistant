@@ -1,0 +1,209 @@
+
+QWidget#bodyWidget
+{
+	background-color: rgb(255, 255, 255);
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-left:2px solid rgba(225, 225, 225, 1);
+	border-right:2px solid rgba(225, 225, 225, 1);
+	border-bottom:2px solid rgba(225, 225, 225, 1);
+}
+
+
+/*发送接收区文本编辑框*/
+QTextEdit#mesRecTextEdit, #sendMesTextEdit
+{
+	border: 2px solid rgb(200,200,200);
+	border-radius: 10px;
+	padding: 3;
+	background: rgb(240, 240, 240);
+}
+
+/*发送接收区提示文本*/
+QLabel#mesRecLabel, #sendMesLabel
+{
+	font-family: Microsoft YaHei;
+	color: rgb(55, 55, 55);
+}
+
+/*网络模式编辑框*/
+QLineEdit
+{
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 2px solid rgb(200,200,200);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+QLabel#errorTipLabel, #errorTipLabel_2{
+	color: red;
+}
+
+/*连接按钮*/
+QPushButton#connectBtn
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+}
+
+QPushButton#connectBtn:hover
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(240, 240, 240);
+}
+
+QPushButton#connectBtn:pressed
+{
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(200, 200, 200);
+}
+
+/*清空发送区文本按钮*/
+QPushButton#clearSendBtn
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_normal.png);
+}
+
+QPushButton#clearSendBtn:hover
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_hover.png);
+}
+
+QPushButton#clearSendBtn:pressed
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_pressed.png);
+}
+
+/*清空接收文本按钮*/
+QPushButton#clearRecBtn
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_normal.png);
+}
+
+QPushButton#clearRecBtn:hover
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_hover.png);
+}
+
+QPushButton#clearRecBtn:pressed
+{
+	border-image:url(:Resources/imageIcon/clearMesBtn_pressed.png);
+}
+
+/*查看已连接客户端按钮*/
+QPushButton#connectedClientBtn
+{
+	border-image:url(:Resources/imageIcon/connectedClient_normal.png);
+}
+
+QPushButton#connectedClientBtn:hover
+{
+	border-image:url(:Resources/imageIcon/connectedClient_hover.png);
+}
+
+QPushButton#connectedClientBtn:pressed
+{
+	border-image:url(:Resources/imageIcon/connectedClient_pressed.png);
+}
+
+/*发送数据按钮*/
+QPushButton#sendMesBtn
+{
+	/*border-image:url(:Resources/imageIcon/sendMesBtn_normal.png);*/
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+}
+
+QPushButton#sendMesBtn:hover
+{
+	/*border-image:url(:Resources/imageIcon/sendMesBtn_hover.png);*/
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(240, 240, 240);
+}
+
+QPushButton#sendMesBtn:pressed
+{
+	/*border-image:url(:Resources/imageIcon/sendMesBtn_pressed.png);*/
+	border-radius: 4px;
+	border: 2px solid rgb(200,200,200);
+	background-color: rgb(200, 200, 200);
+}
+
+/*复制IP按钮*/
+QPushButton#copyIPBtn
+{
+	border-image:url(:Resources/imageIcon/copyIP.png);
+}
+
+QPushButton#copyIPBtn:hover
+{
+	border-image:url(:Resources/imageIcon/copyIP_hoverPressed.png);
+}
+
+QPushButton#copyIPBtn:pressed
+{
+	border-image:url(:Resources/imageIcon/copyIP_hoverPressed.png);
+}
+
+/*获取本地IP按钮*/
+QPushButton#getLocalIpBtn
+{
+	border-image:url(:Resources/imageIcon/getLocalLp_normal.png);
+}
+
+QPushButton#getLocalIpBtn:hover
+{
+	border-image:url(:Resources/imageIcon/getLocalLp_hover.png);
+}
+
+QPushButton#getLocalIpBtn:pressed
+{
+	border-image:url(:Resources/imageIcon/getLocalLp_pressed.png);
+}
+
+/*下拉框样式*/
+QComboBox#netModeComboBox
+{
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 2px solid rgb(200,200,200);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*下拉框图标*/
+QComboBox#netModeComboBox::down-arrow{
+	image:url(:Resources/imageIcon/selectBtn_normal.png);
+	border: 1px solid white;
+	background-color: white;
+}
+QComboBox#netModeComboBox::down-arrow:hover{
+	image:url(:Resources/imageIcon/selectBtn_hover.png);
+}
+QComboBox#netModeComboBox::down-arrow:on{
+	image:url(:Resources/imageIcon/selectBtn_pressed.png);
+}
+
+/*复选框样式设置*/
+QCheckBox::indicator
+{
+	width: 20px; 
+	height: 20px;
+}
+
+QCheckBox::indicator:checked
+{
+	border-image: url(:Resources/imageIcon/selectCheckBox.png);
+}
+
+QCheckBox::indicator:unchecked
+{
+	border-image: url(:Resources/imageIcon/unSelectCheckBox.png);
+}
+

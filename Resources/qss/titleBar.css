@@ -1,0 +1,55 @@
+*{
+	font-family: Microsoft YaHei;
+	color: rgb(55, 55, 55);
+	font-size: 18px;
+	font-weight: bold;
+}
+
+QWidget#titleWidget
+{
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-bottom: 2px solid qlineargradient(spread:pad,x1:0,y1:0, x2:1,y1:0, stop:0 rgba(255, 255, 255, 1), stop:0.01 rgba(255, 255, 255, 1), stop:0.11 rgba(225, 225, 225, 1), stop:0.9 rgba(225, 225, 225, 1), stop:0.99 rgba(255, 255, 255, 1), stop:1 rgba(255, 255, 255, 1));
+	border-left:2px solid rgba(225, 225, 225, 1);
+	border-right:2px solid rgba(225, 225, 225, 1);
+	border-top:2px solid rgba(225, 225, 225, 1);
+}
+
+/*应用程序图标*/
+QLabel#appIcon
+{
+	border-image:url(:Resources/imageIcon/networkAssistant.png);
+}
+
+/*最小化按钮*/
+QPushButton#sysMinBtn
+{
+    border-image:url(:Resources/imageIcon/sysMinBtn_normal.png);
+}
+
+QPushButton#sysMinBtn:hover
+{
+    border-image:url(:Resources/imageIcon/sysMinBtn_hover.png);
+}
+
+QPushButton#sysMinBtn:pressed
+{
+    border-image:url(:Resources/imageIcon/sysMinBtn_pressed.png);
+}
+
+/*关闭按钮*/
+QPushButton#sysCloseBtn
+{
+    border-image:url(:Resources/imageIcon/sysCloseBtn_normal.png);
+}
+
+QPushButton#sysCloseBtn:hover
+{
+    border-image:url(:Resources/imageIcon/sysCloseBtn_hover.png);
+}
+
+QPushButton#sysCloseBtn:pressed
+{
+    border-image:url(:Resources/imageIcon/sysCloseBtn_pressed.png);
+}
