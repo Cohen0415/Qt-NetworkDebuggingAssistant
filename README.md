@@ -12,7 +12,7 @@ Windows + Qt5.14.2
 
 ## 4.1、获取源码
 ```shell
-git clone git@github.com:Cohen0415/Qt-NetworkDebuggingAssistant.git
+git clone git@github.com:Cohen0415/network_debugging_assistant.git
 ```
 
 ## 4.2、使用Qt Creator打开工程
